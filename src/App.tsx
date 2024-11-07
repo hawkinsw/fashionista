@@ -21,7 +21,7 @@ function App() {
     }
 
     userChoseColor(beginningColor, Object())
-  }, [])
+  },)
 
   let calculateNewAngle = (angle: number, delta: number): number => {
     angle += delta;
