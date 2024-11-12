@@ -37,9 +37,22 @@
   width: 100%;
 }
 
-.ColorPicker {
-  min-height: 100%;
+.FashionistaConfig {
   width: 50%;
+  min-height: 100%;
+  flex-direction: column;
+  display: flex;
+}
+
+.FashionistaConfig > .APIConfig {
+  width: 100%;
+  flex: 1;
+  background-color: aliceblue;
+}
+
+.FashionistaConfig > .ColorPicker {
+  width: 100%;
+  flex: 9
 }
 
 .ColorDisplayer {
